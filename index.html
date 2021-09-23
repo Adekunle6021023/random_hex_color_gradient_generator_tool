@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="ColoRando - Are you confused about choosing a color or gradient?, Step in here to get a random color or gradient">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&family=Montserrat:wght@300;400;500&family=Yellowtail&display=swap"
+        rel="stylesheet">
+    <title>ColoRando | Random Colors and Gradients</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+    <!--HEADER-->
+
+    <header class="header">
+        <div class="title">
+            <span class="icon"></span>
+            <span class="name">ColoRando</span>
+        </div>
+        <div class="mobile_align">
+            <div class="option_select">
+                <select name="color_gradient_selector" class="color_gradient_selector">
+                    <option value=""></option>
+                    <option value="option_color">Color</option>
+                    <option value="option_gradient">Gradient</option>
+                </select>
+            </div>
+            <div class="current"></div>
+    </header>
+
+    <!--MAIN-->
+
+    <main class="main">
+        <div class="modal">
+            <span class="modal_text">Please select an option</span>
+            <button class="button option_color">Color</button>
+            <button class="button option_gradient">Gradient</button>
+        </div>
+    </main>
+
+    <!--FOOTER-->
+
+    <footer class="footer">
+        <p>Port5k &copy;2021 </p>
+    </footer>
+    <!--SCRIPT-->
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
